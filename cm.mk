@@ -4,7 +4,7 @@ TARGET_BOOTANIMATION_NAME := vertical-320x480
 # Include GSM stuff
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
-# Inherit device configuration for p500.
+# Inherit device configuration for p506.
 $(call inherit-product, device/lge/p506/p506.mk)
 
 # Inherit some common cyanogenmod stuff.
@@ -16,16 +16,16 @@ $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 PRODUCT_NAME := cm_p506
 PRODUCT_BRAND := lge
 PRODUCT_DEVICE := p506
-PRODUCT_MODEL := LG-P506
+PRODUCT_MODEL := LG-p506
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=lge_p505 \
-    BUILD_FINGERPRINT="lge/thunderg/thunderg:2.3.4/GRJ22/LG-P506-V20f.19E55B0D28:user/release-keys" \
-    PRIVATE_BUILD_DESC="thunderg-user 2.3.4 GRJ22 LG-P506-V20f.19E55B0D28 release-keys"
+    PRODUCT_NAME=lge_p506 \
+    BUILD_FINGERPRINT="lge/thunderg/thunderg:2.3.3/GRI40/LG-p506-V20g.19C11F164C:user/release-keys" \
+    PRIVATE_BUILD_DESC="thunderg-user 2.3.3 GRI40 LG-p506-V20g.19C11F164C release-keys"
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := OptimusThrive
+PRODUCT_RELEASE_NAME := OptimusOne
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
