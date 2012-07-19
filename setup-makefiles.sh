@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=lge
-DEVICE=p505
+DEVICE=p506
 COMMON=msm7x27-common
 OUTDIR=vendor/$VENDOR/$DEVICE
 OUTCOMMON=vendor/$VENDOR/$COMMON
