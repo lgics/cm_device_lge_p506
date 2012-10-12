@@ -26,6 +26,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="lge/thunderg/thunderg:2.3.3/GRJ22/LG-P506-V11f.19E55B0D28:user/release-keys" \
     PRIVATE_BUILD_DESC="thunderg-user 2.3.3 GRJ22 LG-P506-V11f.19E55B0D28 release-keys"
 
+# Build sim toolkit
+PRODUCT_PACKAGES += \
+    Stk
+
 # Release name and versioning
 PRODUCT_RELEASE_NAME := OptimusThrive
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
